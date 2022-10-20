@@ -1,9 +1,10 @@
 package routes
 
 import (
+	"pea/controllers"
+	middleware "pea/middlewares"
+
 	"github.com/gin-gonic/gin"
-	"performance-evaluation-app-with-gin/controllers"
-	middleware "performance-evaluation-app-with-gin/middlewares"
 )
 
 func SetupRoutes(router *gin.Engine) {

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net"
 	"os"
@@ -32,7 +33,9 @@ func main() {
 
 	r.Use(cors.Default())
 	routes.SetupRoutes(r)
-	err := r.Run((addrs[1].String()) + ":" + (os.Getenv("PORT")))
+	fmt.Println("IP:::::::::::::::", addrs[2].String())
+
+	err := r.Run((addrs[2].String()) + ":" + (os.Getenv("PORT")))
 	if err != nil {
 		log.Fatal(err)
 	}

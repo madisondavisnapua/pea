@@ -3,17 +3,18 @@ package controllers
 import (
 	"context"
 	"fmt"
+	"net/http"
+	"pea/configs"
+	"pea/models"
+	"strconv"
+	"time"
+
 	"github.com/gin-gonic/gin"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"net/http"
-	"performance-evaluation-app-with-gin/configs"
-	"performance-evaluation-app-with-gin/models"
-	"strconv"
-	"time"
 )
 
 type RatingResponse struct {

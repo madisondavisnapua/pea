@@ -3,15 +3,16 @@ package middleware
 import (
 	"context"
 	"fmt"
+	"net/http"
+	"os"
+	"pea/configs"
+	"pea/models"
+	"strings"
+
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"net/http"
-	"os"
-	"performance-evaluation-app-with-gin/configs"
-	"performance-evaluation-app-with-gin/models"
-	"strings"
 )
 
 func CheckAuth(c *gin.Context) {
