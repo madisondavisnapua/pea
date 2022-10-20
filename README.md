@@ -1,4 +1,4 @@
-# performance-evaluation-app-with-go-gin-framework
+# Employe performance tracking application
 
 PEA ( Employe performance tracking application)
 
