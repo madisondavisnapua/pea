@@ -1,6 +1,6 @@
 # performance-evaluation-app-with-go-gin-framework
 
-performance evaluation app with golang and gofiber using mongodb
+PEA ( Employe performance tracking application)
 
 # /**\*\*\*\***\*\*\*\***\*\*\*\*** How to Setup application \***\*\*\*\*\*\*\***/
 
