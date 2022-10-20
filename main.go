@@ -4,13 +4,13 @@ import (
 	"log"
 	"net"
 	"os"
-	"performance-evaluation-app-with-gin/routes"
+	"pea/routes"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	cors "github.com/rs/cors/wrapper/gin"
 
-	db "performance-evaluation-app-with-gin/configs"
+	db "pea/configs"
 )
 
 func init() {

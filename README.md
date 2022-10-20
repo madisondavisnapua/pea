@@ -8,7 +8,7 @@ Step1:
 go to the root directory of your project.
 
     Type cmd :
-        go mod init performance_evaluation-app
+        go mod init pea
 
 Step2:
 
